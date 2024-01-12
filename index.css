@@ -243,6 +243,9 @@
   .background-skills-portfolio {
     width: 130%;
   }
+  .skill-percent-portfolio {
+    height: 27px;
+  }
   .sql-percent {
     margin-top: 2px;
   }
