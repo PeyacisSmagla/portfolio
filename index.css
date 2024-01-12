@@ -8,7 +8,7 @@
   }
 }
 .background-portfolio {
-  background-color: #DFE3EE;
+  background-color: #dfe3ee;
   padding: 20px;
   padding-top: 100px;
   height: 100vh;
@@ -305,8 +305,8 @@
   border-radius: 5px;
   width: 170px;
 }
-.container-contact-portfolio { 
-background-image: linear-gradient(to bottom, #023966, #0f66ad);
+.container-contact-portfolio {
+  background-image: linear-gradient(to bottom, #023966, #0f66ad);
   height: 90vh;
   width: 100%;
   display: flex;
@@ -316,7 +316,7 @@ background-image: linear-gradient(to bottom, #023966, #0f66ad);
   padding-top: 20px;
 }
 .card-contact-portfolio {
-  background-color: #CCD6DD;
+  background-color: #ccd6dd;
   margin-top: 40px;
   height: 65vh;
   width: 80%;
@@ -326,10 +326,10 @@ background-image: linear-gradient(to bottom, #023966, #0f66ad);
 }
 .head-contact-portfolio {
   color: #073252;
- font-family: bree ;
- font-weight: 600;
- font-size: 30px;
- margin-bottom: 25px;
+  font-family: bree;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
 .bgimage-card-portfolio {
   display: flex;
@@ -356,9 +356,9 @@ background-image: linear-gradient(to bottom, #023966, #0f66ad);
   height: 35px;
   width: 35px;
   background-color: #023966;
- padding-top: 8px;
- padding-left: 9px;
- border-radius: 19px;
+  padding-top: 8px;
+  padding-left: 9px;
+  border-radius: 19px;
 }
 .mail-contact {
   color: #225e8b;
@@ -373,9 +373,9 @@ background-image: linear-gradient(to bottom, #023966, #0f66ad);
   height: 35px;
   width: 35px;
   background-color: #023966;
- padding-top: 8px;
- padding-left: 10px;
- border-radius: 19px;
+  padding-top: 8px;
+  padding-left: 10px;
+  border-radius: 19px;
 }
 #linkedinicon-contact {
   font-size: 17px;
@@ -385,10 +385,9 @@ background-image: linear-gradient(to bottom, #023966, #0f66ad);
   height: 35px;
   width: 35px;
   background-color: #023966;
- padding-top: 9px;
- padding-left: 11px;
- border-radius: 19px;
- 
+  padding-top: 9px;
+  padding-left: 11px;
+  border-radius: 19px;
 }
 .last-card-contact {
   background-color: #014a86;
@@ -405,10 +404,5 @@ background-image: linear-gradient(to bottom, #023966, #0f66ad);
   margin-top: 15px;
   font-weight: 600;
   font-size: 16px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
-
-
-
-
-
