@@ -1,224 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PortFolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5f59ca6ad3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div id="sectionhome">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top p-3" id="nav-portfolio">
-            <a class="navbar-brand" style="color: #213F99;"  href="#" id="card-nav-portfolio">
-                <img src="https://img.icons8.com/?size=50&id=dwfuFrQfNSOo&format=png" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-link mr-lg-5" id="home-nav-portfolio" href="#sectionhome">Home</a>
-                    <a class="nav-link mr-lg-5" id="heading-nav-portfolio" href="#sectionaboutme">About Me</a>
-                    <a class="nav-link mr-lg-5" id="heading-nav-portfolio" href="#sectionproject">Projects</a>
-                    <a class="nav-link mr-lg-5" id="heading-nav-portfolio" href="#sectionworkdone">Work Done</a>
-                    <a class="nav-link" id="heading-nav-portfolio" href="#section">Contact</a>
-                </div>
-            </div>
-        </nav>
-        <div class="background-portfolio">
-            <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-12 mt-md-5 container-banner-portfolio">
-                    <h1 class="heading-banner-portfolio mb-3 mb-md-4">Hai I'm<br /><span class="span-banner-portfolio mb-md-5">Peyacis Smagla</span></h1>
-                    <p class="para-banner-portfolio mb-md-3 text-center">MERN Stack Development Trainee and MCA Graduate</p>
-                    <a class="button-banner-portfolio" href="#sectionaboutme">
-                        <i class="fa fa-caret-down" id="dropdown-portfolio" aria-hidden="true"></i>
-                    </a>
-                </div>
-        
-            </div>
-    
-</div>
-
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-3"
+        id="nav-portfolio"
+      >
+        <a
+          class="navbar-brand"
+          style="color: #213f99"
+          href="#"
+          id="card-nav-portfolio"
+        >
+          <img
+            src="https://img.icons8.com/?size=50&id=dwfuFrQfNSOo&format=png"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a
+              class="nav-link mr-lg-5"
+              id="home-nav-portfolio"
+              href="#sectionhome"
+              >Home</a
+            >
+            <a
+              class="nav-link mr-lg-5"
+              id="heading-nav-portfolio"
+              href="#sectionaboutme"
+              >About Me</a
+            >
+            <a
+              class="nav-link mr-lg-5"
+              id="heading-nav-portfolio"
+              href="#sectionproject"
+              >Projects</a
+            >
+            <a
+              class="nav-link mr-lg-5"
+              id="heading-nav-portfolio"
+              href="#sectionworkdone"
+              >Work Done</a
+            >
+            <a class="nav-link" id="heading-nav-portfolio" href="#sectioncontact"
+              >Contact</a
+            >
+          </div>
         </div>
+      </nav>
+      <div class="background-portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-12 mt-md-5 container-banner-portfolio">
+              <h1 class="heading-banner-portfolio mb-3 mb-md-4">
+                Hai I'm<br /><span class="span-banner-portfolio mb-md-5"
+                  >Peyacis Smagla</span
+                >
+              </h1>
+              <p class="para-banner-portfolio mb-md-3 text-center">
+                MERN Stack Development Trainee and MCA Graduate
+              </p>
+              <a class="button-banner-portfolio" href="#sectionaboutme">
+                <i
+                  class="fa fa-caret-down"
+                  id="dropdown-portfolio"
+                  aria-hidden="true"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="sectionaboutme">
-        <div class="background-aboutme-portfolio pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 order-1 order-md-2">
-                        <h1 class="heading-aboutme-portfolio mb-3">Facts</h1>
-                        <h1 class="subheading-aboutme-portfolio mb-3">About Me</h1>
-                        <p class="para-aboutme-portfolio">I am Peyacis Smagla. I have completed BSc Mathematics and currently pursuing Master of Computer Application at Alagappa University and MERN Stack Development at NxtWave. I have hands on experience with technologies like HTML, CSS, Bootstrap, Javascript, Node Js, React Js, Python, SqLite. I have a strong command over both front_end and back_end technologies. I have developed 30+ static, responsive, and dynamic web applications.</p>
-                        <hr />
-                    </div>
-                </div>
+      <div class="background-aboutme-portfolio pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 order-1 order-md-2">
+              <h1 class="heading-aboutme-portfolio mb-3">Facts</h1>
+              <h1 class="subheading-aboutme-portfolio mb-3">About Me</h1>
+              <p class="para-aboutme-portfolio">
+                I am Peyacis Smagla. I have completed BSc Mathematics and
+                currently pursuing Master of Computer Application at Alagappa
+                University and MERN Stack Development at NxtWave. I have hands
+                on experience with technologies like HTML, CSS, Bootstrap,
+                Javascript, Node Js, React Js, Python, SqLite. I have a strong
+                command over both front_end and back_end technologies. I have
+                developed 30+ static, responsive, and dynamic web applications.
+              </p>
+              <hr />
             </div>
+          </div>
         </div>
-        <div class="background-skills-portfolio pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="subheading-aboutme-portfolio mb-5">Skills</h1>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-3" src="https://img.icons8.com/?size=55&id=zRvbzAjx4VWY&format=png" alt="html" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-3">
-                                <p class="skill-para-portfolio">70%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">HTML</h1>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-3" 
-                            src="https://img.icons8.com/?size=55&id=21278&format=png" alt="css" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-4">
-                                <p class="skill-para-portfolio">70%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">CSS</h1>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-3" 
-                            src="https://img.icons8.com/?size=55&id=v13GOfYIdvlQ&format=png" alt="sql" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-4">
-                                <p class="sql-percent mr-2">60%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">SQL</h1>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-3" 
-                            src="https://img.icons8.com/?size=60&id=Nkym0Ujb8VGI&format=png" alt="js" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-4">
-                                <p class="skill-para-portfolio">70%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">Javascript</h1>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-3" 
-                            src="https://img.icons8.com/?size=60&id=W3gfKnMhfM6h&format=png" alt="python" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-4">
-                                <p class="skill-para-portfolio">70%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">Python</h1>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-4" 
-                            src="https://img.icons8.com/?size=45&id=9vlfB9hjA1lX&format=png" alt="react" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-4">
-                                <p class="skill-react-portfolio">65%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">React Js</h1>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-top mb-4">
-                            <div class="mr-3">
-                            <img class="html-image-portfolio mb-2 mr-3" 
-                            src="https://img.icons8.com/?size=51&id=ouWtcsgDBiwO&format=png" alt="node" />
-                            </div>
-                            <div class="skill-percent-portfolio mr-4">
-                                <p class="sql-percent">60%</p>
-                            </div>
-                            <h1 class="html-head-portfolio mt-1">Node Js</h1>
-                        </div>
-                    </div>
+      </div>
+      <div class="background-skills-portfolio pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="subheading-aboutme-portfolio mb-5">Skills</h1>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-3"
+                    src="https://img.icons8.com/?size=55&id=zRvbzAjx4VWY&format=png"
+                    alt="html"
+                  />
                 </div>
+                <div class="skill-percent-portfolio mr-3">
+                  <p class="skill-para-portfolio">70%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">HTML</h1>
+              </div>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-3"
+                    src="https://img.icons8.com/?size=55&id=21278&format=png"
+                    alt="css"
+                  />
+                </div>
+                <div class="skill-percent-portfolio mr-4">
+                  <p class="skill-para-portfolio">70%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">CSS</h1>
+              </div>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-3"
+                    src="https://img.icons8.com/?size=55&id=v13GOfYIdvlQ&format=png"
+                    alt="sql"
+                  />
+                </div>
+                <div class="skill-percent-portfolio mr-4">
+                  <p class="sql-percent mr-2">60%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">SQL</h1>
+              </div>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-3"
+                    src="https://img.icons8.com/?size=60&id=Nkym0Ujb8VGI&format=png"
+                    alt="js"
+                  />
+                </div>
+                <div class="skill-percent-portfolio mr-4">
+                  <p class="sql-percent">60%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">Javascript</h1>
+              </div>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-3"
+                    src="https://img.icons8.com/?size=60&id=W3gfKnMhfM6h&format=png"
+                    alt="python"
+                  />
+                </div>
+                <div class="skill-percent-portfolio mr-4">
+                  <p class="skill-react-portfolio">65%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">Python</h1>
+              </div>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-4"
+                    src="https://img.icons8.com/?size=45&id=9vlfB9hjA1lX&format=png"
+                    alt="react"
+                  />
+                </div>
+                <div class="skill-percent-portfolio mr-4">
+                  <p class="skill-react-portfolio">65%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">React Js</h1>
+              </div>
+              <div class="d-flex align-items-center justify-content-top mb-4">
+                <div class="mr-3">
+                  <img
+                    class="html-image-portfolio mb-2 mr-3"
+                    src="https://img.icons8.com/?size=51&id=ouWtcsgDBiwO&format=png"
+                    alt="node"
+                  />
+                </div>
+                <div class="skill-percent-portfolio mr-4">
+                  <p class="sql-percent">60%</p>
+                </div>
+                <h1 class="html-head-portfolio mt-1">Node Js</h1>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div id="sectionproject">
-        <div class="background-project-portfolio pt-5 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="container-project-portfolio">
-                        <h1 class="heading-project-portfolio mb-5 mt-5">Projects</h1>
-                        <div class="mb-4 mt-4">
-                            <h1 class="static-head-portfolio mb-3">Static - <i class="italic-skill-portfolio">Using HTML, CSS, Bootstrap</i></h1>    
-                            <div class="static-card-portfolio mb-4">
-                                <a class="yoga-portfoliio m-5" href="https://yogapageps.ccbp.tech/">
-                                    <img class="yoga-image-portfoliio" src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" alt="yoga" />
-                                    <p class="yoga-para-portfoliio">Yoga Page</p>
-                                </a>
-                                <a class="yoga-portfoliio m-5" href="https://flatpageps.ccbp.tech/">
-                                    <img class="flat-image-portfoliio mb-4" src="https://assets.ccbp.in/frontend/static-website/flats-list-bg.png" alt="flats" />
-                                    <p class="yoga-para-portfoliio">Flat Page</p>
-                                </a>
-                                <a class="yoga-portfoliio m-5" href="https://myprojectps.ccbp.tech/">
-                                    <img class="myproject-image-portfoliio" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" alt="myproject" />
-                                    <p class="yoga-para-portfoliio">My Projects</p>
-                                </a>
-                            </div>
-                            
-                        </div>
-
-                        <div class="mb-4 mt-4">
-                            <h1 class="static-head-portfolio mb-3">Responsive - <i class="italic-skill-portfolio">Using HTML, CSS, Bootstrap, Flexbox</i></h1>    
-                            <div class="static-card-portfolio mb-4">
-                                <a class="yoga-portfoliio m-5" href="https://resportfoliops.ccbp.tech/">
-                                    <img class="yoga-image-portfoliio mb-3" src="https://cdn-icons-png.flaticon.com/512/265/265750.png?w=740&t=st=1690908034~exp=1690908634~hmac=05d150160870aa9699057247626e48d045e64ae36cff2393ccb6b82fb64e941d" alt="yoga" />
-                                    <p class="yoga-para-portfoliio">Portfolio</p>
-                                </a>
-                                <a class="yoga-portfoliio m-5" href="https://ecommercewebps.ccbp.tech/">
-                                    <img class="ecommerce-image-portfoliio mb-4" src="https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34863.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=sph" alt="ecommerce" />
-                                    <p class="yoga-para-portfoliio">Ecommerce Website</p>
-                                </a>
-                        
-                            </div>
-                            
-                        </div>
-
-                        <div class="mb-4 mt-4">
-                            <h1 class="static-head-portfolio mb-3">Dynamic - <i class="italic-skill-portfolio">Using HTML, CSS, Javascript, Bootstrap</i></h1>    
-                            <div class="static-card-portfolio mb-4">
-                                <a class="yoga-portfoliio m-5" href="https://peyacissmagla.github.io/tutorial3/">
-                                    <img class="todo-image-portfoliio mb-4" src="https://img.freepik.com/free-vector/people-making-list-illustration_53876-43029.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=sph" alt="todos" />
-                                    <p class="yoga-para-portfoliio">Todos Application</p>
-                                </a>
-                                <a class="yoga-portfoliio m-5" href="https://searchps.ccbp.tech/">
-                                    <img class="search-image-portfoliio  mb-4" src="https://img.freepik.com/free-vector/search-concept-landing-page_23-2148211329.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=ais" alt="search" />
-                                    <p class="yoga-para-portfoliio">Search Application</p>
-                                </a>
-                        
-                            </div>
-                            
-                        </div>
-
-                        <div class="mb-4 mt-4">
-                            <h1 class="static-head-portfolio mb-3">React Js - <i class="italic-skill-portfolio">Using React</i></h1>    
-                            <div class="static-card-portfolio mb-4">
-                                <a class="yoga-portfoliio m-5" href="https://peyacissmagla.github.io/tutorial3/">
-                                    <img class="todo-image-portfoliio mb-4" src="https://img.freepik.com/free-vector/people-making-list-illustration_53876-43029.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=sph" alt="todos" />
-                                    <p class="yoga-para-portfoliio">Todos Application</p>
-                                </a>
-                                <a class="yoga-portfoliio m-5" href="https://searchps.ccbp.tech/">
-                                    <img class="search-image-portfoliio  mb-4" src="https://img.freepik.com/free-vector/search-concept-landing-page_23-2148211329.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=ais" alt="search" />
-                                    <p class="yoga-para-portfoliio">Search Application</p>
-                                </a>
-                        
-                            </div>
-                            
-                        </div>
-                    </div>
+      <div class="background-project-portfolio pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="container-project-portfolio">
+              <h1 class="heading-project-portfolio mb-5 mt-5">Projects</h1>
+              <div class="mb-4 mt-4">
+                <h1 class="static-head-portfolio mb-3">
+                  Static -
+                  <i class="italic-skill-portfolio"
+                    >Using HTML, CSS, Bootstrap</i
+                  >
+                </h1>
+                <div class="static-card-portfolio mb-4">
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://yogapageps.ccbp.tech/"
+                  >
+                    <img
+                      class="yoga-image-portfoliio"
+                      src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png"
+                      alt="yoga"
+                    />
+                    <p class="yoga-para-portfoliio">Yoga Page</p>
+                  </a>
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://flatpageps.ccbp.tech/"
+                  >
+                    <img
+                      class="flat-image-portfoliio mb-4"
+                      src="https://assets.ccbp.in/frontend/static-website/flats-list-bg.png"
+                      alt="flats"
+                    />
+                    <p class="yoga-para-portfoliio">Flat Page</p>
+                  </a>
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://myprojectps.ccbp.tech/"
+                  >
+                    <img
+                      class="myproject-image-portfoliio"
+                      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png"
+                      alt="myproject"
+                    />
+                    <p class="yoga-para-portfoliio">My Projects</p>
+                  </a>
                 </div>
+              </div>
+
+              <div class="mb-4 mt-4">
+                <h1 class="static-head-portfolio mb-3">
+                  Responsive -
+                  <i class="italic-skill-portfolio"
+                    >Using HTML, CSS, Bootstrap, Flexbox</i
+                  >
+                </h1>
+                <div class="static-card-portfolio mb-4">
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://resportfoliops.ccbp.tech/"
+                  >
+                    <img
+                      class="yoga-image-portfoliio mb-3"
+                      src="https://cdn-icons-png.flaticon.com/512/265/265750.png?w=740&t=st=1690908034~exp=1690908634~hmac=05d150160870aa9699057247626e48d045e64ae36cff2393ccb6b82fb64e941d"
+                      alt="yoga"
+                    />
+                    <p class="yoga-para-portfoliio">Portfolio</p>
+                  </a>
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://ecommercewebps.ccbp.tech/"
+                  >
+                    <img
+                      class="ecommerce-image-portfoliio mb-4"
+                      src="https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34863.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=sph"
+                      alt="ecommerce"
+                    />
+                    <p class="yoga-para-portfoliio">Ecommerce Website</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="mb-4 mt-4">
+                <h1 class="static-head-portfolio mb-3">
+                  Dynamic -
+                  <i class="italic-skill-portfolio"
+                    >Using HTML, CSS, Javascript, Bootstrap</i
+                  >
+                </h1>
+                <div class="static-card-portfolio mb-4">
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://peyacissmagla.github.io/todo_application/"
+                  >
+                    <img
+                      class="todo-image-portfoliio mb-4"
+                      src="https://img.freepik.com/free-vector/people-making-list-illustration_53876-43029.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=sph"
+                      alt="todos"
+                    />
+                    <p class="yoga-para-portfoliio">Todos Application</p>
+                  </a>
+                  <a
+                    class="yoga-portfoliio m-5"
+                    href="https://searchps.ccbp.tech/"
+                  >
+                    <img
+                      class="search-image-portfoliio mb-4"
+                      src="https://img.freepik.com/free-vector/search-concept-landing-page_23-2148211329.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=ais"
+                      alt="search"
+                    />
+                    <p class="yoga-para-portfoliio">Search Application</p>
+                  </a>
+                </div>
+              </div>
+
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    
-</body>
+
+
+    <div id="sectioncontact">
+      <div class="container-contact-portfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 container-contact-portfolio">
+            <div class="card-contact-portfolio shadow">
+            <div class="bgimage-card-portfolio">
+              <div>
+                <img src="https://img.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg?size=626&ext=jpg&ga=GA1.1.1641838178.1690907161&semt=ais" alt="" class="contact-image">
+              </div>
+              <div>
+              <h1 class="head-contact-portfolio">Contact Me</h1>
+              <div class="main-card-contact">
+                <i class="fa fa-envelope" aria-hidden="true" id="mailicon-contact"></i>
+                <p>
+                <a class="mail-contact" href="mailto:peyacis03@gmail.com">peyacis03@gmail.com</a>
+                </p>
+              </div>
+              <div class="main-card-contact mb-3">
+                <i class="fa fa-phone" aria-hidden="true" id="numicon-contact"></i>
+                <p>
+                <a class="mail-contact" href="">8825421711</a>
+                </p>
+              </div>
+              <div class="main-card-contact">
+                <i class="fa fa-linkedin" aria-hidden="true" id="linkedinicon-contact"></i>
+                <p>
+                <a class="mail-contact" href="https://www.linkedin.com/in/peyacis-smagla/">Peyacis Smagla | LinkedIn</a>
+                </p>
+              </div>
+              <div class="main-card-contact mb-3">
+                <i class="fa fa-github" aria-hidden="true" id="numicon-contact"></i>
+                <p>
+                <a class="mail-contact" href="https://github.com/PeyacisSmagla">Peyacis Smagla | Github</a>
+                </p>
+              </div>
+
+            </div>
+            </div>
+          </div>
+          <div class="last-card-contact">
+            <p class="last-para-contact"> <i class="fa fa-copyright pt-2" style="font-size: 14px;" aria-hidden="true"></i> 2023 By Peyacis smagla with Bootstrap</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  </body>
 </html>
