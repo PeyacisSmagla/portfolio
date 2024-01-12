@@ -10,11 +10,17 @@
 .background-portfolio {
   background-color: #dfe3ee;
   padding: 20px;
+  width: 100%;
   padding-top: 100px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media all and (max-width: 576px) {
+  .background-portfolio {
+    width: 130%;
+  }
 }
 
 .home-bg-portfolio {
@@ -176,9 +182,14 @@
   background-color: #bccad6;
   background: linear-gradient(to left, #bccad6, #8d9db6);
   padding: 50px;
-
+  width: 100%;
   height: auto;
   padding-top: 50px;
+}
+@media all and (max-width: 576px) {
+  .background-aboutme-portfolio {
+    width: 130%;
+  }
 }
 .background-skills-portfolio {
   background-color: #bccad6;
@@ -186,6 +197,7 @@
   height: auto;
   padding: 50px;
 }
+
 .skill-percent-portfolio {
   background-color: #243564;
   height: 25px;
@@ -226,12 +238,24 @@
   padding-left: 20px;
 }
 
+@media all and (max-width: 576px) {
+  .background-skills-portfolio {
+    width: 130%;
+  }
+}
+
 .background-project-portfolio {
   background-color: #57637a;
   height: auto;
   padding: 50px;
   width: 100%;
 }
+@media all and (max-width: 576px) {
+  .background-project-portfolio {
+    width: 130%;
+  }
+}
+
 .heading-project-portfolio {
   font-size: 28px;
   font-family: "Times New Roman", Times, serif;
@@ -279,7 +303,7 @@
   padding-top: 30px;
 }
 .myproject-image-portfoliio {
-  height: 300px;
+  height: 200px;
   width: 95%;
   border-radius: 5px;
   padding-top: 30px;
@@ -324,12 +348,18 @@
   border-radius: 2px;
   padding: 10px;
 }
+@media all and(max-width: 700px ) {
+  .card-contact-portfolio {
+    padding-left: 25px;
+  }
+}
 .head-contact-portfolio {
   color: #073252;
   font-family: bree;
   font-weight: 600;
   font-size: 30px;
   margin-bottom: 25px;
+  text-align: center;
 }
 .bgimage-card-portfolio {
   display: flex;
@@ -388,7 +418,7 @@
   width: 35px;
   background-color: #023966;
   padding-top: 9px;
-  padding-left: 11px;
+  padding-left: 10px;
   border-radius: 19px;
 }
 .last-card-contact {
@@ -401,6 +431,12 @@
   justify-content: center;
   align-items: center;
 }
+@media all and(max-width: 700px) {
+  .last-card-contact {
+    height: 50px;
+  }
+  
+}
 .last-para-contact {
   color: #e6dadf;
   margin-top: 15px;
@@ -411,4 +447,19 @@
 #link-icon {
   font-size: 13px;
   margin-left: 10px;
+}
+@media all and (max-width: 576px) {
+  .container-contact-portfolio {
+    width: 130%;
+  }
+  .last-card-contact {
+    display: none;
+}
+
+.head-contact-portfolio {
+  font-size: 24px;
+}
+.mail-contact {
+font-size: 16px;
+} 
 }
