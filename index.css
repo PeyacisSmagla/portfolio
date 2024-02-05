@@ -44,16 +44,15 @@
   height: 20px;
   width: 20px;
   font-size: 28px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   margin-bottom: 0px;
   font-weight: 600;
   color: #778cc9;
   margin-bottom: 25px;
-  
 }
 .span-name-home {
-  color:#364c9c;
+  color: #364c9c;
   margin-left: 20px;
   margin-left: 0%;
 }
@@ -264,9 +263,9 @@
   .skill-react-portfolio {
     margin-top: 2px;
   }
-    .skill-para-portfolio {
-      margin-top: 2px;
-    }
+  .skill-para-portfolio {
+    margin-top: 2px;
+  }
 }
 
 .background-project-portfolio {
@@ -460,7 +459,6 @@
   .last-card-contact {
     height: 50px;
   }
-  
 }
 .last-para-contact {
   color: #e6dadf;
@@ -479,14 +477,14 @@
   }
   .last-card-contact {
     display: none;
-}
+  }
 
-.head-contact-portfolio {
-  font-size: 24px;
-}
-.mail-contact {
-font-size: 16px;
-} 
+  .head-contact-portfolio {
+    font-size: 24px;
+  }
+  .mail-contact {
+    font-size: 16px;
+  }
 }
 .mail-home:hover {
   cursor: pointer;
