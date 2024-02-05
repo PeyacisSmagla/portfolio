@@ -43,8 +43,19 @@
 #card-nav-portfolio {
   height: 20px;
   width: 20px;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  margin-bottom: 42px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  color: #778cc9;
+  margin-bottom: 25px;
+  
+}
+.span-name-home {
+  color:#364c9c;
+  margin-left: 20px;
+  margin-left: 0%;
 }
 
 #home-nav-portfolio {
@@ -125,7 +136,7 @@
   align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 769px) {
   .background-portfolio {
     min-height: 135vh;
   }
@@ -476,4 +487,27 @@
 .mail-contact {
 font-size: 16px;
 } 
+}
+.mail-home:hover {
+  cursor: pointer;
+}
+
+#mail-portfolio {
+  background-color: #2b4c81;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 6px;
+  font-size: 19px;
+  color: #daeaf0;
+}
+.div-icon-home {
+  margin: 10px;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+@media all and (max-width: 769px) {
+  .div-icon-home {
+    display: none;
+  }
 }
